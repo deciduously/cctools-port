@@ -34,7 +34,7 @@
 #elif defined (__i386__) || defined(__x86_64__)
 #include "mach/i386/boolean.h"
 #elif defined (__arm__) || defined(__arm64__)
-#include "mach/arm/boolean.h"
+#include "mach/i386/boolean.h"
 #else
 #error architecture not supported
 #endif
